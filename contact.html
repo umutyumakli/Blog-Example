@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>My Blog</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navbar Start-->
+    <nav style="font-size: 17px;" class="navbar navbar-expand-lg navbar-light bg-light fw-bold mb-5 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img height="75" width="75"
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/1e/RPC-JP_Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav navbar-nav navbar-right">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item dropdown ms-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Kategoriler
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">link 1</a></li>
+                            <li><a class="dropdown-item" href="#">link 2</a></li>
+                            <li><a class="dropdown-item" href="#">link 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!--Contact Start-->
+    <div class="container p-3 contact mt-120">
+        <div class="row baslik">
+            <h1><strong>İletişim</strong></h1>
+        </div>
+        <div class="row p-4 offset-sm-1">
+            <div class="col-sm">
+                <h5><strong>Hoşgeldiniz;</strong></h5>
+                <p>Lütfen İletişim Formunu Eksiksiz Doldurunuz. Görüş, öneri veya diğer sorularınız için <strong><a
+                            href="mailto:umutyum34@gmail.com"> umutyum34@gmail.com</a></strong> mail adresi üzerinden
+                    iletişime geçebilirsiniz.</p>
+                <input class="mb-3" type="email" placeholder="İsminiz ...">
+                <input class="mb-3" type="email" placeholder="E-Mail Adresiniz ...">
+                <input type="text" class="textbox mb-3" placeholder="Mesajınız ..."><br>
+                <button type="button" class="btn btn-secondary"><i class="bi bi-send me-2"></i>Gönder</button>
+            </div>
+            <div class="col-sm">
+                <div class="row contacttext">
+                    <p><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p><i class="bi bi-telephone-fill"></i><a href="tel:+905396200300"> 0539 620 03 00</a></p>
+                    <p><i class="bi bi-envelope-fill"></i><a href="mailto:umutyum34@gmail.com"> umutyum34@gmail.com</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <h5>Konumumuz ;</h5>
+                    <!-- Google map sensor -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385395.5590093089!2d28.73198480192593!3d41.005500518888525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1605467486350!5m2!1str!2str"
+                        width="600" height="400"></iframe>
+                    <!-- Google map sensor -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Contact End-->
+
+    <!--Footer Start-->
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="social">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-envelope"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <ul class="footermenu">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="">Hakkında</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                    <li><a href="">Gizlilik Politikası Kişisel Verilerin Korunması Kanunu</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Footer End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
